@@ -65,7 +65,7 @@ public class Student3 {
         student.setResidentialStatus(residentialStatus);
 
         semesterFee = Integer.parseInt(args[4]);
-        if(residentialStatus.toLowerCase() == "hostelite"){
+        if(residentialStatus.toLowerCase().equals("hostelite")){
             hostelFee = Integer.parseInt(args[5]);
             student.setFeesPerMonth(semesterFee,hostelFee);
         }
