@@ -1,7 +1,5 @@
 package Assignments.Day4.Assignment7;
 
-import javax.swing.text.Style;
-
 public class Student {
     protected int studentID;
     protected char studentType;

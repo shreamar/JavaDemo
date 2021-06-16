@@ -1,7 +1,5 @@
 package Assignments.Day5.SelfReview.Review1;
 
-import java.util.Calendar;
-
 abstract class Animal {
     abstract void testClassMethod();
     public static void testInstanceMethod(){
