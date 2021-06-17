@@ -1,0 +1,5 @@
+Q1. Complied using javac compliler
+
+Q2. Byte code. '.class' files are platform independent.
+
+Q3. JVM is used to deploy the software. JVM is platform dependent.
