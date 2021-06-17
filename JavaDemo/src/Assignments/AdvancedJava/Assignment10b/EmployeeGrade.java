@@ -1,4 +1,4 @@
-package Assignments.AdvancedJava.Assignment10;
+package Assignments.AdvancedJava.Assignment10b;
 
 public class EmployeeGrade {
     private int employeeNo;
@@ -8,6 +8,10 @@ public class EmployeeGrade {
     private float customer3Feedback;
     private float averageFeedback;
     private char grade;
+
+    public EmployeeGrade(){
+
+    }
 
     public EmployeeGrade(int employeeNo, String employeeName, float customer1Feedback, float customer2Feedback, float customer3Feedback){
         this.employeeNo = employeeNo;
