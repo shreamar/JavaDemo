@@ -1,4 +1,4 @@
-package Assignments.AdvancedJava.Day4.Assignment28;
+package Assignments.AdvancedJava.Day4.Assignment29;
 
 public class Customer {
     private int customerID;
@@ -10,31 +10,31 @@ public class Customer {
         return customerID;
     }
 
-    public void setCustomerID(int custID) {
-        customerID = custID;
+    public void setCustomerID(int customerID) {
+        this.customerID = customerID;
     }
 
     public String getCustomerName() {
         return customerName;
     }
 
-    public void setCustomerName(String custName) {
-        customerName = custName;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getCustomerAddress() {
         return customerAddress;
     }
 
-    public void setCustomerAddress(String custAddress) {
-        customerAddress = custAddress;
+    public void setCustomerAddress(String customerAddress) {
+        this.customerAddress = customerAddress;
     }
 
     public int getPinCode() {
         return pinCode;
     }
 
-    public void setPinCode(int pCode) {
-        pinCode = pCode;
+    public void setPinCode(int pinCode) {
+        this.pinCode = pinCode;
     }
 }
