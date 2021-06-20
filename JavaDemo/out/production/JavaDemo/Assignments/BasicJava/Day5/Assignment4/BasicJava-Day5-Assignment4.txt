@@ -1,0 +1,11 @@
+1. Course Management System, Engineering college, departments, courses, lecturer, faculty member,students, graduate
+student, post-graduate students, full-time lecturers, visiting lecturer, admin staff, HOD, day scholar, host-elite.
+
+2. Students select electives, graduate students do final year project, post-graduate students do thesis submission,
+admin staff registers students to courses, HOD allocates courses to lecturers, system keeps track of residential status
+of students, lecturer gives lectures to students and updates marks and attendance of students,
+
+3. Course management system has engineering college, engineering college has departments, department has HOD, lecturers,
+lecturers are allocated to courses, students are enrolled in courses, day scholar and host-elites are types of students
+, HOD is an admin staff, graduate and post graduate are types of students, full-time and visiting members are types of
+lecturers.
