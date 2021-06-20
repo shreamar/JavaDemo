@@ -1,4 +1,4 @@
-package Assignments.AdvancedJava2.Day1;
+package Assignments.AdvancedJava2.Day1.Assignment1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
