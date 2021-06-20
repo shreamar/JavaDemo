@@ -19,6 +19,7 @@ public class EmployeeGrade {
 
     public void calculateAverageFeedback(){
         this.averageFeedback = (customer1Feedback+customer2Feedback+customer2Feedback)/3.0f;
+        //calculateGrade();
     }
 
     public void calculateGrade(){
