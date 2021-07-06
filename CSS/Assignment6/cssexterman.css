@@ -1,0 +1,10 @@
+th{
+    color: darkgreen;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    color: teal;
+}
+tr:nth-child(odd){
+    color: chocolate;
+}
