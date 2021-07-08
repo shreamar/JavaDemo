@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Numbers</title>
+  <script language="JavaScript">
+    function checkVal(){
+      if(!isNaN(document.frm.txt1.value) && !isNaN(document.frm.txt2.value)){
+        add();
+      }
+      else
+      {
+        alert("Please enter a number");
+      }
+    }
+    function add(){
+      document.frm.txt3.value = parseInt(document.frm.txt1.value)+parseInt(document.frm.txt2.value);
+    }
+    function subt(){
+      document.frm.txt3.value = parseInt(document.frm.txt1.value)-parseInt(document.frm.txt2.value);
+    }
+    function mult(){
+      document.frm.txt3.value = parseInt(document.frm.txt1.value)*parseInt(document.frm.txt2.value);
+    }
+    function divi(){
+      document.frm.txt3.value = parseInt(document.frm.txt1.value)/parseInt(document.frm.txt2.value);
+    }
+  </script>
+</head>
+<body>
+<form name="frm">
+  Num1<input type="text" name="txt1"><br>
+  Num2<input type="text" name="txt2"><br>
+  Result<input type="text" name="txt3"><br>
+  <input type="button" value="Add" onclick="checkVal()">
+  <input type="button" value="Subtract" onclick="subt()">
+  <input type="button" value="Multiply" onclick="mult()">
+  <input type="button" value="Divide" onclick="divi()">
+</form>
+</body>
+</html>

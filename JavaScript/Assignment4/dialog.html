@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dialogue</title>
+  <script language="JavaScript">
+    function disMsg(){
+      num1 = parseInt(prompt("Enter the first number","0"));
+      num2 = parseInt(prompt("Enter the second number"));
+      alert("Sum is \n"+(num1+num2));
+    }
+    function closeWin(){
+      res = confirm("Do you wnat to close the window?");
+      if(res==true) window.close();
+    }
+  </script>
+</head>
+<body>
+<form name="f1">
+  <input type="button" value="Add" name="but1" onclick="disMsg()">
+  <input type="button" value="Close" name="but2" onclick="closeWin()">
+</form>
+</body>
+</html>

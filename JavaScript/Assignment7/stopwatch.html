@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stop Watch</title>
+  <script language="JavaScript">
+    function startWatch(){
+      id =setTimeout(startWatch,100);
+      document.stp.txt.value = id;
+    }
+    function stopWatch(){
+      clearTimeout(id);
+    }
+  </script>
+</head>
+<body>
+<h1>Stop Watch</h1>
+<form name="stp">
+  <input type="text" name="txt"><br>
+  <input type="button" value="Start" onclick="startWatch()">
+  <input type="button" value="Stop" onclick="stopWatch()">
+</form>
+</body>
+</html>

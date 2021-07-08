@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch</title>
+</head>
+<body>
+<script language="JavaScript">
+  function vowel(a){
+    var isVowel = false;
+    switch (a){
+      case 'a':isVowel = true;
+      case 'e':isVowel=true;
+      case 'i':isVowel=true;
+      case 'o':isVowel=true;
+      case 'u':isVowel=true;
+      default: isVowel=false;
+    }
+    return isVowel;
+  }
+
+  document.write(vowel('b'));
+</script>
+</body>
+</html>

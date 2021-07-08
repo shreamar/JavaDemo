@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form ELement HTML</title>
+    <script language="JavaScript">
+        function funDisp() {
+            alert("textbox val is " + document.forms[0].elements[0].valueOf());
+            alert("textbox val is " + document.forms[0].elements[1].valueOf());
+            alert("textbox val is " + document.forms[0].elements[2].valueOf());
+        }
+    </script>
+</head>
+<body>
+<form name="frm1">
+    <input type="text" name="txt1" value="Levi"><br>
+    <input type="radio" name="rad1" value="1" checked>OK<br>
+    <input type="button" value="Submit" name="but1" onclick="funDisp()">
+</form>
+</body>
+</html>

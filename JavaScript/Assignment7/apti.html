@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Buttons</title>
+  <script language="JavaScript">
+    function checkAns(){
+      if(document.frm1.rad[2].checked){
+        alert("Correct Answer");
+      }
+      else{
+        alert("Wrong Answer");
+      }
+    }
+  </script>
+</head>
+<body>
+<h3>What memeber of Scout is from Dauper village?</h3>
+<form name="frm1">
+  <input name="rad" type="radio">Connie Springer<br>
+  <input name="rad" type="radio">Jean Kirstein<br>
+  <input name="rad" type="radio">Sasha Braus<br>
+  <input name="rad" type="radio">Annie Leonhart<br>
+  <input type="button" value="Check Answer" onclick="checkAns()">
+</form>
+</body>
+</html>

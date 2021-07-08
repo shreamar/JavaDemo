@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function</title>
+  <script language="JavaScript">
+    function addFun(num1,num2){
+      return num2+num1;
+    }
+
+    function power(){
+      var result = 1;
+      for (var i = 0;i<arguments[1];i++){
+        result *= arguments[0];
+      }
+      return result;
+    }
+
+    function dispStr(){
+      for(i=0;i<arguments.length;i++) {
+        document.write(arguments[i] + " ");
+      }
+    }
+
+    function average(){
+      var sum = 0;
+      for (var i = 0; i<arguments.length;i++){
+        sum+=arguments[i];
+      }
+      return sum/arguments.length;
+    }
+
+  </script>
+</head>
+<body>
+<script language="JavaScript">
+  // document.write("<h1>Result is "+power(25,2)+"</h1>");
+  // dispStr("lone","ltwo","lthree");
+  confirm(average(10,11,12,13,14,16,19));
+</script>
+</body>
+</html>

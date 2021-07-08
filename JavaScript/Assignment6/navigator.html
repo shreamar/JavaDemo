@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigator</title>
+  <script language="JavaScript">
+    document.write("The browser name is "+navigator.appName);
+
+    function openNew(){
+      newwin = window.open("newwin.html","newone","width=300; height=400; toolbar=no");
+    }
+    function closeWin(){
+      newwin.close();
+    }
+    function fun(){
+      location.replace("status.html");
+      document.write(location.host);
+      document.write(location.protocol);
+    }
+  </script>
+</head>
+<body>
+<input type="button" value=" Open " onclick="openNew()">
+<input type="button" value=" Close " onclick="closeWin()">
+<h1>History Demo</h1>
+<input type="button" value="back" onclick="history.go(-1)">
+<input type="button" value="Change" onclick="fun()">
+</body>
+</html>

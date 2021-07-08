@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Control</title>
+</head>
+<body>
+<script>
+  function divisor(a){
+    if(a%5==0 && a%6==0){
+      document.write(a+" is divisible by both 5 and 6");
+    }
+  }
+  function largest(a,b,c){
+    var max = a;
+    if(a>b && a > c){
+      max = a;
+    }
+    else if(b>a && b>c){
+      max =b;
+    }
+    else if(c>a && c>b){
+      max= c;
+    }
+    document.write(max+" is the largest number among "+a+", "+b+" and "+c);
+  }
+  divisor(30);
+  largest(1,2,3);
+</script>
+</body>
+</html>
